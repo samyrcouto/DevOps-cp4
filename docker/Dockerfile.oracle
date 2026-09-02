@@ -1,0 +1,9 @@
+FROM container-registry.oracle.com/database/free:latest
+
+USER root
+
+COPY 01_SQL_GS_26.sql /opt/oracle/scripts/setup/01_SQL_GS_26.sql
+
+RUN chown oracle:oinstall /opt/oracle/scripts/setup/01_SQL_GS_26.sql
+
+USER oracle
