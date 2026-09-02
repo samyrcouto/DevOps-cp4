@@ -1,8 +1,8 @@
-# \# 🌱 Projeto Agro - DevOps CP4
+#   Projeto Agro - DevOps CP4
 
 # 
 
-# Projeto desenvolvido para realizar a containerização de uma aplicação Java Spring Boot com banco de dados Oracle, publicação das imagens no Azure Container Registry e execução dos containers utilizando Azure Container Instances.
+
 
 # 
 
@@ -10,7 +10,7 @@
 
 # 
 
-# \## 📁 Estrutura do projeto
+#  📁 Estrutura do projeto
 
 # 
 
@@ -50,7 +50,7 @@
 
 # 
 
-# \# 🔹 1 - Login na Azure
+# \#  1 - Login na Azure
 
 # 
 
@@ -66,7 +66,7 @@
 
 # 
 
-# \# 🔹 2 - Criar Resource Group
+# \#  2 - Criar Resource Group
 
 # 
 
@@ -86,7 +86,7 @@
 
 # 
 
-# \# 🔹 3 - Build da aplicação Java
+# \#  3 - Build da aplicação Java
 
 # 
 
@@ -118,7 +118,7 @@
 
 # 
 
-# \# 🔹 4 - Build do banco Oracle
+# \#  4 - Build do banco Oracle
 
 # 
 
@@ -150,7 +150,7 @@
 
 # 
 
-# \# 🔹 5 - Testar Oracle localmente com persistência
+# \#  5 - Testar Oracle localmente com persistência
 
 # 
 
@@ -204,7 +204,7 @@
 
 # 
 
-# \# 🔹 6 - Criar Azure Container Registry
+# \#  6 - Criar Azure Container Registry
 
 # 
 
@@ -228,7 +228,7 @@
 
 # 
 
-# \# 🔹 7 - Login no ACR
+# \#  7 - Login no ACR
 
 # 
 
@@ -244,7 +244,7 @@
 
 # 
 
-# \# 🔹 8 - Publicar imagem da aplicação
+# \#  8 - Publicar imagem da aplicação
 
 # 
 
@@ -278,7 +278,7 @@
 
 # 
 
-# \# 🔹 9 - Publicar imagem do Oracle
+# \#  9 - Publicar imagem do Oracle
 
 # 
 
@@ -312,7 +312,7 @@
 
 # 
 
-# \# 🔹 10 - Criar Storage Account
+# \#  10 - Criar Storage Account
 
 # 
 
@@ -336,7 +336,7 @@
 
 # 
 
-# \# 🔹 11 - Criar Azure File Share
+# \#  11 - Criar Azure File Share
 
 # 
 
@@ -382,7 +382,7 @@
 
 # 
 
-# \# 🔹 12 - Obter credenciais do Azure Container Registry
+# \#  12 - Obter credenciais do Azure Container Registry
 
 # 
 
@@ -426,7 +426,7 @@
 
 # 
 
-# \# 🔹 13 - Definir senha do Oracle
+# \#  13 - Definir senha do Oracle
 
 # 
 
@@ -454,7 +454,7 @@
 
 # 
 
-# \# 🔹 14 - Criar container Oracle no Azure
+# \#  14 - Criar container Oracle no Azure
 
 # 
 
@@ -496,7 +496,7 @@
 
 # 
 
-# \# 🔹 15 - Verificar Oracle no Azure
+# \#  15 - Verificar Oracle no Azure
 
 # 
 
@@ -572,7 +572,7 @@
 
 # 
 
-# \# 🔹 16 - Criar container da aplicação no Azure
+# \#  16 - Criar container da aplicação no Azure
 
 # 
 
@@ -618,7 +618,7 @@
 
 # 
 
-# \# 🔹 17 - Verificar aplicação no Azure
+# \#  17 - Verificar aplicação no Azure
 
 # 
 
@@ -658,7 +658,7 @@
 
 # 
 
-# \# 🔹 18 - URL da aplicação
+# \#  18 - URL da aplicação
 
 # 
 
@@ -690,7 +690,7 @@
 
 # 
 
-# \# 🔹 19 - Testar comunicação entre aplicação e Oracle
+# \#  19 - Testar comunicação entre aplicação e Oracle
 
 # 
 
@@ -734,7 +734,7 @@
 
 # 
 
-# \# 🔹 20 - CRUD - POST
+# \#  20 - CRUD - POST
 
 # 
 
@@ -798,7 +798,7 @@
 
 # 
 
-# \# 🔹 21 - Validar POST diretamente no Oracle
+# \#  21 - Validar POST diretamente no Oracle
 
 # 
 
@@ -858,7 +858,7 @@
 
 # 
 
-# \# 🔹 22 - CRUD - GET
+# \#  22 - CRUD - GET
 
 # 
 
@@ -898,7 +898,7 @@
 
 # 
 
-# \# 🔹 23 - CRUD - PUT
+# \#  23 - CRUD - PUT
 
 # 
 
@@ -946,7 +946,7 @@
 
 # 
 
-# \# 🔹 24 - Validar PUT diretamente no Oracle
+# \#  24 - Validar PUT diretamente no Oracle
 
 # 
 
@@ -982,7 +982,7 @@
 
 # 
 
-# \# 🔹 25 - CRUD - DELETE
+# \#  25 - CRUD - DELETE
 
 # 
 
@@ -1002,7 +1002,7 @@
 
 # 
 
-# \# 🔹 26 - Validar DELETE diretamente no Oracle
+# \#  26 - Validar DELETE diretamente no Oracle
 
 # 
 
@@ -1038,7 +1038,7 @@
 
 # 
 
-# \# 🔹 27 - Persistência
+# \#  27 - Persistência
 
 # 
 
@@ -1090,7 +1090,7 @@
 
 # 
 
-# \# 🔹 28 - Arquivo DDL
+# \#  28 - Arquivo DDL
 
 # 
 
@@ -1110,7 +1110,7 @@
 
 # 
 
-# \# 🔹 29 - Dockerfile da aplicação
+# \#  29 - Dockerfile da aplicação
 
 # 
 
@@ -1134,7 +1134,7 @@
 
 # 
 
-# \# 🔹 30 - Dockerfile do Oracle
+# \#  30 - Dockerfile do Oracle
 
 # 
 
@@ -1150,161 +1150,9 @@
 
 # 
 
-# \---
-
 # 
 
-# \# 🔐 Segurança
-
-# 
-
-# Nenhuma credencial real deve ser publicada no repositório.
-
-# 
-
-# As seguintes informações devem permanecer fora do GitHub:
-
-# 
-
-# \- senha do Oracle;
-
-# \- senha do banco;
-
-# \- senha do Azure Container Registry;
-
-# \- chave da Storage Account;
-
-# \- tokens;
-
-# \- credenciais pessoais.
-
-# 
-
-# As informações sensíveis são obtidas dinamicamente ou armazenadas em variáveis de ambiente.
-
-# 
-
-# Exemplo:
-
-# 
-
-# ```powershell
-
-# $ORACLE\_PWD = "SUA\_SENHA"
-
-# ```
-
-# 
-
-# Nunca substituir `SUA\_SENHA` pela senha real dentro deste README.
-
-# 
-
-# \---
-
-# 
-
-# \# 🧪 CRUD demonstrado
-
-# 
-
-# A API possui operações de:
-
-# 
-
-# \- `POST` - criação de registro;
-
-# \- `GET` - consulta de registro;
-
-# \- `PUT` - atualização de registro;
-
-# \- `DELETE` - remoção de registro.
-
-# 
-
-# As operações foram demonstradas utilizando a entidade `BIOMA`.
-
-# 
-
-# Após as operações de alteração, foram realizadas consultas diretamente no Oracle para comprovar as alterações realizadas pela API.
-
-# 
-
-# \---
-
-# 
-
-# \# 📸 Evidências
-
-# 
-
-# As evidências da infraestrutura Azure devem ser armazenadas na pasta:
-
-# 
-
-# ```text
-
-# azure/
-
-# ```
-
-# 
-
-# As evidências específicas das operações CRUD devem ser armazenadas em:
-
-# 
-
-# ```text
-
-# azure/CRUD/
-
-# ```
-
-# 
-
-# Exemplos:
-
-# 
-
-# ```text
-
-# azure/
-
-# ├── resource-group.png
-
-# ├── acr.png
-
-# ├── aci-app.png
-
-# ├── aci-oracle.png
-
-# ├── storage-account.png
-
-# └── CRUD/
-
-# &#x20;   ├── post.png
-
-# &#x20;   ├── select-post.png
-
-# &#x20;   ├── get.png
-
-# &#x20;   ├── put.png
-
-# &#x20;   ├── select-put.png
-
-# &#x20;   ├── delete.png
-
-# &#x20;   └── select-delete.png
-
-# ```
-
-# 
-
-# \---
-
-# 
-
-# \# 🛠️ Tecnologias utilizadas
+# \#  Tecnologias utilizadas
 
 # 
 
@@ -1338,7 +1186,7 @@
 
 # 
 
-# \# 📦 Principais recursos Azure
+# \#  Principais recursos Azure
 
 # 
 
